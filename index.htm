@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budgety</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h3>Available income for 2020</h3>
+            <div class="total-asset">
+                0
+            </div>
+            <div class="total profit">
+                <div>Income</div>
+                <div id="income">0</div>
+            </div>
+            <div class="total loss">
+                <div>Expenses</div>
+                <div id="expenses">0</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="form">
+            <select name="selection" id="selection">
+                <option value="income">Income</option>
+                <option value="expense">Expenses</option>
+            </select>
+            <input type="text" id="input-desc" placeholder="Add description">
+            <input type="text" id="input-value" placeholder="value">
+            <button id="add">Add</button>
+        </div>
+        <div class="cards">
+            <div class="income-field">
+                <h2>Income</h2>
+                <ul class="list">
+                </ul>
+            </div>
+            <div class="expense-field">
+                <h2 style="color: rgb(252, 58, 58);">Expenses</h2>
+                <ul class="list">
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <footer></footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
